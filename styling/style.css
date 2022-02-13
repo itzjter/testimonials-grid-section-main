@@ -230,10 +230,9 @@ article.kira p {
   }
 
   .container {
-    margin: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px 24px;
+    gap: 24px;
   }
 
   article {
