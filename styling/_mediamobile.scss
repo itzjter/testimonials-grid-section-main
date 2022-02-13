@@ -8,29 +8,36 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     min-width: 375px;
     background-color: #dfe6ee;
-
+    
 }
 
 .container {
     margin: 71px 24px 71px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
 }
 
 
 article {
     margin-bottom: 24px;
     border-radius: 10px;
-
+    
     &.daniel {
         width: 327px;
         height: 100%;
         padding: 24px 30px 33px 30px;
         text-align: left;
         background-color: $Moderate-violet ;
-        background-image: url(assets\images\bg-pattern-quotation.svg);
+        background-image: url(../assets/images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: right 10%  top 0 ;
 
         .header {
             display: flex;
-
+            
             img {
                 display: block;
                 max-width: 31px;
@@ -41,7 +48,7 @@ article {
             }
 
             & div {
-
+            
                 h4 {
                     color: $White;
                     font-weight: 500;
@@ -222,7 +229,7 @@ article {
 
         .header {
             display: flex;
-
+        
             img {
                 display: block;
                 max-width: 31px;
