@@ -6,6 +6,7 @@ work in progress :)
 links
 
 Git pages:
+https://itzjter.github.io/testimonials-grid-section-main/
 
 
 Netlify:
