@@ -13,11 +13,9 @@ body {
 
 .container {
     margin: 71px 24px 71px 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;    
 }
 
 
