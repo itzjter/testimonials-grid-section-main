@@ -8,14 +8,17 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     min-width: 375px;
     background-color: #dfe6ee;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
     margin: 71px 24px 71px 24px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;    
+    gap: 2rem;
 }
 
 
